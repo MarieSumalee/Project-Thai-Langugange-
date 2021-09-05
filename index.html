@@ -9,59 +9,50 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+<script type="text/javascript" src="canvas.js"></script>
 
-<body>
   <!-- Header -->
-  <header class="w3-display-section content wide" style="max-width:1600px;min-width:1000px" id="home">
-    <img class="w3-image" src="images/nature.jpg" alt="Nature" width="1800" height="400">
+  <header class="w3-display-section content wide" id="home">
+    <img class="w3-image" src="images/nature.jpg" alt="Nature" class=responsive width="1500" height="400">
     <div class="w3-display-topleft opacity">
-      <br>
-      <br>
+     <br>
       <ul style="list-style-type:none;">
-        <h3 class="display-topright padding-large opacity">การเรียนรู้</h3>
-
+        <h3 class="display-topright padding-large opacity" style="font-size:3.5vw;">การเรียนรู้</h3>
       </ul>
       <div class="w3-display-topright padding-right opacity">
-        <br>
-        <br>
+       <br>
         <ul style="list-style-type:none;">
           <li>
             <a href="#about" class="w3-bar-item w3-button">
-              <h6>ระเบียบการ</h6>
+              <h6 style="font-size:2vw;">ระเบียบการ</h6>
             </a>
             <a href="#menu" class="w3-bar-item w3-button">
-              <h6>ครูอาจารย์</h6>
+              <h6 style="font-size:2vw;">ครูอาจารย์</h6>
             </a>
             <a href="#contact" class="w3-bar-item w3-button">
-              <h6>นักศีกษา</h6>
+              <h6 style="font-size:2vw;">นักศีกษา</h6>
             </a>
           </li>
         </ul>
       </div>
-      <br>
-      <br>
-      <br>
-
+     <br>
+       <ul style="list-style-type:none;">
       <h1 class="display-topright padding-large opacity">ท้องฟ้า ไม่มีที่สิ้นสุด</h1>
-      <ul style="list-style-type:none;">
-        <h6>แหล่งที่มาบางแห่งกล่าวว่า ประโยค 'ท้องฟ้าไม่มีขีดจำกัด' ถูกคิดค้นโดย Cervantes ใน Don Quizote
+        <h6 style="font-size:2.5vw;">แหล่งที่มาบางแห่งกล่าวว่า ประโยค 'ท้องฟ้าไม่มีขีดจำกัด' ถูกคิดค้นโดย Cervantes ใน Don Quizote
           ปรากฎอยู่ในรายชื่อยอดนิยมเกี่ยวกับ coinages ที่เกิดจาก Cervantes ยกตัวอย่างเช่น
           อย่าใส่ไข่ทั้งหมดของคุณลงในหนึ่งตะกร้า</h6>
       </ul>
     </div>
     </section>
     </div>
-    <br>
-    <br>
+   </div>
   </header>
-
-
+  <br>
+  <body>
   <div class="card col-sm-12 center">
-    <div class="display-section content wide" style width="1600" id="container">
-      <img src="images/standing.jpg" alt="standing" class="responsive" width="1400" height="400">
-
-      <div>
-
+    <div class="display-section content wide" style width="1300" id="container">
+      <img src="images/standing.jpg" alt="standing" class="responsive" width="1500" height="400">
+   
         <div class="section">
           <div class="row">
             <br>
@@ -75,11 +66,14 @@
             </div>
           </div>
         </div>
-        <br>
-
-        <div class="w3-section">
+       <br>
+  <div class="section text-left align-left">
+  <br>
+                <ul>
+                <h2 class="text-left">
           <h2>เรื่องราวทั้งหมดในประเทศไทย</h2>
           <br>
+          </ul>
           <div class="container-fluid">
             <div class="row">
               <div class="col-sm-6 bg-white">
@@ -97,7 +91,7 @@
                 <img src="images/image04.jpg" alt="phone" class="responsive">
               </div>
               <div class="card col-sm-12 center p-0">
-                <img src="images/cheers.jpg" alt="standing" class="responsive" width="1400" height="400">
+                <img src="images/cheers.jpg" alt="standing" class="responsive" width="1500" height="400">
                 <br>
                 <br>
                 <div class="card-deck">
@@ -114,7 +108,6 @@
 
                 <a href="https://www.flaticon.com/" title="Flaticon"></a>
                 <div class="container-fluid img-center">
-
                   <div class="card-deck">
                     <div class="col-sm-6 bg-white align-center">
                       <br>
@@ -138,12 +131,14 @@
                   </div>
                 </div>
               </div>
-
-              <div class="section">
-                <br>
-                <br>
-                <h2>ทรัพยากร</h2>
-                <canvas id="myCanvas" width="1150" height="0" style="border:1px solid #d3d3d3;">
+              <div class="section text-left align-left">
+                <ul>
+                <h2 class="text-left">
+                  <br>
+                  ทรัพยากร
+                </h2>
+                </ul>
+                <canvas id="myCanvas" width="1000" height="0" style="border:1px solid #d3d3d3;">
                   Your browser does not support the HTML5 canvas tag.</canvas>
 
                 <script>
@@ -155,11 +150,14 @@
                   ctx.stroke();
                 </script>
               </div>
-              <br>
-              <div class="card-deck">
+             </div>
+        
+          
+              <div class="card-deck">    
                 <div class="card col-sm-6">
                   <img class="card" src="images/slide.jpg" alt="Card image cap" width="45" height="45">
-                  <div class="card-body">
+                        <div class="card-body">
+                   
                     <h4 class="card-title">สไลด์</h4>
                     <p class="card-text">เปลี่ยนอุปกรณ์ของคุณให้เป็นเม้าส์ที่รวดเร็วและน้ำหนักเบาสำหรับเดสก์ทอปของคุณ
                     </p>
@@ -193,74 +191,64 @@
                   </div>
                 </div>
               </div>
-              <br>
-              <div class="card col-sm-12 center p-0">
-
-                <div class="w3-display-section content wide" style width="1400" id="container">
-                  <id="Beach">
-                    <img src="images/Sunrise.jpg" alt="Beach" class="responsive" width="1600" height="400">
-                    <div class="w3-display-buttomcenter opacity">
-                    </div>
+             <br>
+             </div>
+              <div class="card">
+                <beach class="w3-display-section content wide" style width="1500" id="container">
+                    <img src="images/Sunrise.jpg" alt="Beach" class="responsive" width="1500" height="400">
                     <div class="centered">
-                      <h1>ไม่ควรพลาดเด็ดขาด</h1>
-                      <h6>เราเชื่อมั่นในพลังของเทคโนโลยีที่จะเปลี่ยนแนวทางการเรียนรู้ของเรา
-                        ให้ตัวเองในการเชื่อมต่ออยู่เสมอและเตรียมตัวสำหรับการเรียน</h6>
-                    </div>
+                     <h1 style="font-size:3.2vw;">ไม่ควรพลาดเด็ดขาด</h1>  
+                    <h6 style="font-size:2.5vw;">เราเชื่อมั่นในพลังของเทคโนโลยีที่จะเปลี่ยนแนวทางการเรียนรู้ของเรา
+                        ให้ตัวเองในการเชื่อมต่ออยู่เสมอและเตรียมตัวสำหรับการเรียน
+                        </h6>
                 </div>
-              </div>
-
+              </beach>
+               <br>
             </div>
-            <br>
-            <br>
-
-
-            <div class="section text-center align-center ">
-              <h2 class="text-center">เราอยู่ที่นี่เพื่อช่วยเหลือคุณ</h2>
             </div>
-            <br>
-
-
-            <div class="container bg-white">
-              <div class="row">
-                <div class="col-sm-6 img-center">
-                  <img class="img-center " src="images/book.jpg" alt="book" width="45" height="45">
-                  <div class="body">
-                    <h4 class="title">การศึกษาพิเศษ</h4>
-                    <p class="text">ความเป็นไปได้ถูกสร้างขึ้นจะเริ่มต้นจากที่นี่กับคุณ</p>
-                    <a href="#" class="w3-bar-item ">
-                      <p class="text center">ดูเพิ่มเติม</p>
-                    </a>
-                  </div>
-                </div>
-
-                <div class="col-sm-6 img-center">
-                  <img class="img-center" src="images/tool.jpg" alt="tool" width="45" height="45">
-                  <div class="body">
-                    <h4 class="title">เทคโนโลยีสารสนเทศ</h4>
-                    <p class="text ">จัดการอุปกรณ์และเนื้อหาสำหรับนักเรียนของคุณ</p>
-                    <a href="#" class="w3-bar-item ">
-                      <p class="text center">ดูเพิ่มเติม</p>
-                    </a>
-
-                  </div>
-                </div>
-              </div>
-              <br>
-            </div>
+            <div class="section text-center align-center">
+                <ul>
+                <h2 class="text-center align-center">
+                  <br>
+                     เราอยู่ที่นี่เพื่อช่วยเหลือคุณ</h2><br>
+       
+                </ul>
+        
+       
           </div>
+ <br>
 
+ <a href="https://www.flaticon.com/" title="Flaticon"></a>
+                <div class="container-fluid img-center">
+                  <div class="card-deck">
+                    <div class="col-sm-6 bg-white align-center">
+                      <br>
+                      <h4><img src="images/book.jpg" alt=" tick" class="center" width="45" height="45"></h4>
+                        <h4> การศึกษาพิเศษ</h4>
+                      <p>ความเป็นไปได้ถูกสร้างขึ้นจะเริ่มต้นจากที่นี่กับคุณ</p>
+                      <p>ดูเพิ่มเติม</p>
+                    </div>
 
-        </div>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      </div>
-      <div class="card-deck">
-        <div class="col-sm-12 bg-white align-center">
-          <p class="text">เงื่อนไข: ตัวอย่างภาพและสำเนาภาพตัวอย่างใช้ในการสมมติ
-            <br>คล้ายคลึงกับบริษัทที่เกิดขึ้นจริงบุคคลหรือนิติบุคคลในชีวิตจริงอื่น ๆ
-            ที่มีบังเอิญและไม่มีความสัมพันธ์กัสิ่งที่มีอยู่จริง
-            มีวัตถุประสงค์ หรือไม่ควรสรุป
-          </p>
-        </div>
-      </div>
+                    <br>
+                    <div class="col-sm-6 bg-white align-center">
+                      <br>
+                      <h4><img src="images/tool.jpg" alt="text " class="center" width="45" height="45"></h4>
+                        <h4>เทคโนโลยีสารสนเทศ</h4>
+                      <p>จัดการอุปกรณ์และเนื้อหาสำหรับนักเรียนของคุณ</p>
+                       <p>ดูเพิ่มเติม</p>
+                          
+</div>
+<br>
+
+   <div class="section text-center align-center">
+    <p class="text-center" style="font-size:1.5vw;">เงื่อนไข: ตัวอย่างภาพและสำเนาภาพตัวอย่างใช้ในการสมมติ
+      <br>คล้ายคลึงกับบริษัทที่เกิดขึ้นจริงบุคคลหรือนิติบุคคลในชีวิตจริงอื่น ๆ
+      ที่มีบังเอิญและไม่มีความสัมพันธ์กัสิ่งที่มีอยู่จริง
+      มีวัตถุประสงค์ หรือไม่ควรสรุป
+    </p>
+  </div>
+  </div>
+
 </body>
+
 </html>
