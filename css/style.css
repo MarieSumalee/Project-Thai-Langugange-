@@ -1,0 +1,101 @@
+
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,300);
+
+/* Body */
+body 
+{ color: rgb(252, 252, 252); height: 100%; width: 100%;
+font-family: "Times New Roman", Georgia, Serif; font-size: 16px;  font-family: "Playfair Display";
+  letter-spacing: 2px;font-weight: 300; margin: 0; padding: 0; }
+
+h1 { margin: 0 0 1em 0; font-size: 2em; font-weight: 700; color: white; text-align: center;}
+h2 { margin: 0 0 1em 0; font-size: 1.9em; font-weight: 700; color: rgb(35, 35, 37); text-align: left;}
+h3 { margin: 0 0 1em 0; font-size: 1.8em; font-weight: 700; color: white; text-align: left;}
+h4 { margin: 0 0 1em 0; font-size: 1.7em; font-weight: 700; color: black; text-align: center;}
+h5 
+h6 { margin: 1em ; text-align: center; color: white;
+  font-family: "Playfair Display";
+  letter-spacing: 1px; }
+p { margin: 1em ; text-align: center; color: black;
+  font-family: "Playfair Display";
+  letter-spacing: 1px;
+} 
+/* Body*/
+
+body {
+  background-color: #9ba0a7;
+  width: 100%;
+  height: 100%;
+}
+/* Section */
+section
+{
+ align-items: center;
+}
+.img{
+  align-items: center;
+}
+
+  .responsive {
+  max-width: 100%;
+  height: auto;
+background: #f0eeee 
+}
+.container{
+    background-color: rgb(245, 241, 241);
+    padding: 1em;
+    height: auto; 
+    width: 100%; 
+    float:none;
+}
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: max-content;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* Float two columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
